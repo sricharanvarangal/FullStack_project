@@ -1,43 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI Interview Platform
 
-## Environment Variables
+An intelligent full-stack web application that simulates real-time technical interviews using AI. It generates questions, evaluates answers, and provides detailed performance reports.
 
-This app uses Google Gemini via the Vercel AI SDK. Create `ai-interview-platform/.env.local` with:
+---
 
+## 📌 Features
 
-If the key is missing/invalid/expired, the app will show an actionable error message when you try to analyze a job description.
+- 🤖 AI-based question generation from job descriptions
+- 🎯 Personalized interview sessions
+- 📝 Answer evaluation using AI
+- 📊 Performance reports and feedback
+- ⚡ Real-time interview simulation
+- 🔐 Session management
 
-## Getting Started
+---
 
-First, run the development server:
+## 🏗️ Tech Stack
+
+### Frontend
+- Next.js (App Router)
+- React
+- Tailwind CSS
+
+### Backend
+- Next.js API Routes
+- Node.js
+
+### AI Integration
+- OpenAI / LLM APIs
+
+### Others
+- TypeScript
+- ESLint
+
+---
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
 
 ```bash
+git clone https://github.com/sricharanvarangal/FullStack_project.git
+cd FullStack_project
+2️⃣ Install dependencies
+npm install
+3️⃣ Setup environment variables
+
+Create a .env.local file:
+
+OPENAI_API_KEY=your_api_key_here
+4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App will run on:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🔌 API Endpoints
+Endpoint	Description
+/api/parse-jd	Extracts data from job description
+/api/generate-questions	Generates interview questions
+/api/interview	Handles interview session
+/api/evaluate	Evaluates candidate answers
+🧠 How It Works
+User provides job description
+System extracts key skills
+AI generates relevant interview questions
+User answers questions
+AI evaluates responses
+Detailed report is generated
+📊 Future Improvements
+🎥 Video-based interview support
+🧠 Advanced scoring models
+📈 Analytics dashboard
+👤 User authentication system
+🤝 Contributing
+Fork the repository
+Create a new branch
+Make your changes
+Submit a pull request
+📜 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is licensed under the MIT License.
 
-## Learn More
+👨‍💻 Author
+Sricharan Varangal
+Contributors: Kollipakula Nikhil
+⭐ Support
 
-To learn more about Next.js, take a look at the following resources:
+If you like this project, give it a ⭐ on GitHub!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💡 If you want next level
+I can also:
+- Customize README based on **your exact UI screenshots**
+- Add **deployment steps (Vercel / Render / AWS)**
+- Add **architecture diagram**
+- Add **badges + professional portfolio-level README**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Just tell me 👍
+::contentReference[oaicite:0]{index=0}
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
