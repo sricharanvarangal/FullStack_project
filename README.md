@@ -4,9 +4,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This app uses Google Gemini via the Vercel AI SDK. Create `ai-interview-platform/.env.local` with:
 
-```bash
-GOOGLE_GENERATIVE_AI_API_KEY=...
-```
 
 If the key is missing/invalid/expired, the app will show an actionable error message when you try to analyze a job description.
 
